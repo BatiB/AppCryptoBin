@@ -75,11 +75,11 @@ col1.metric(col7_selection, col7_price, col7_percent)
 col2.metric(col8_selection, col8_price, col8_percent)
 col3.metric(col9_selection, col9_price, col9_percent)
 
-st.header('**All Price**')
-st.dataframe(df)
+st.markdown('''Credit: Created by Chanin Nantasenamat (aka [Data Professor](https://youtube.com/dataprofessor/)) ''')
+st.markdown('''Data: Biance''')
 
-st.info('Credit: Created by Chanin Nantasenamat (aka [Data Professor](https://youtube.com/dataprofessor/))')
-st.info('Credit: Copied by myself')
+#st.info('Credit: Created by Chanin Nantasenamat (aka [Data Professor](https://youtube.com/dataprofessor/))')
+#st.info('Credit: Copied by myself')
 
 st.markdown("""
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
