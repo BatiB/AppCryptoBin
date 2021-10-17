@@ -75,8 +75,12 @@ col1.metric(col7_selection, col7_price, col7_percent)
 col2.metric(col8_selection, col8_price, col8_percent)
 col3.metric(col9_selection, col9_price, col9_percent)
 
+
+st.header('**All Price**')
+st.dataframe(df)
+
 st.markdown('''Credit: Created by Chanin Nantasenamat (aka [Data Professor](https://youtube.com/dataprofessor/)) ''')
-st.markdown('''Data: Biance''')
+st.markdown('''Data: Binance''')
 
 #st.info('Credit: Created by Chanin Nantasenamat (aka [Data Professor](https://youtube.com/dataprofessor/))')
 #st.info('Credit: Copied by myself')
